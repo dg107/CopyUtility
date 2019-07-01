@@ -15,6 +15,7 @@ namespace Utility
 
             try
             {
+                // handling various options for translation / map and transformation
                 switch (PropertyName.ToCharArray()[0])
                 {
                     case '{' // A Map to a deeper property
